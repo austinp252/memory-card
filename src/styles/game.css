@@ -1,0 +1,12 @@
+.cards {
+  margin: 50px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row-gap: 50px;
+}
+
+.score-container {
+  margin: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
