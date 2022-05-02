@@ -7,6 +7,8 @@ function Cards(props) {
 
     const {cards, handleScoreChange} = props;
 
+    const mainfeature = null;
+
     return( //address warning message
         <div className="cards">
             {cards.map((card) => {
