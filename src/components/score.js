@@ -4,6 +4,8 @@ const Score = (props) => {
     const [highScore, setHighScore] = useState(0);
     const {currentScore} = props;
 
+    const testFeature = null;
+
     useEffect(
         () => {
             if(currentScore > highScore) {
